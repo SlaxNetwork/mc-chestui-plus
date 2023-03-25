@@ -26,7 +26,6 @@ java {
     toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 }
 
-// Allow for publishing to Maven local.
 publishing {
     repositories {
         maven {
